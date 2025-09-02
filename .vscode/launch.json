@@ -3,12 +3,22 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "java-project"
+        },
+        {
+            "type": "java",
             "name": "Run Main",
             "request": "launch",
             "mainClass": "Main",
             "projectName": "ProyectoUnidad1",
             "cwd": "${workspaceFolder}",
-            "classPaths": ["${workspaceFolder}/bin", "${workspaceFolder}/lib/*"],
+            "classPaths": [
+                "${workspaceFolder}/bin",
+                "${workspaceFolder}/lib/*"
+            ],
             "args": []
         },
         {
@@ -18,7 +28,10 @@
             "mainClass": "Main",
             "projectName": "ProyectoUnidad1",
             "cwd": "${workspaceFolder}",
-            "classPaths": ["${workspaceFolder}/bin", "${workspaceFolder}/lib/*"],
+            "classPaths": [
+                "${workspaceFolder}/bin",
+                "${workspaceFolder}/lib/*"
+            ],
             "args": []
         }
     ]

@@ -1,4 +1,12 @@
-Estimado <destinatario>
-Por medio de la presente le comunico que he aceptado las condiciones del servicio ofrecido.
-Gracias
+Estimado <destinatario>,
+
+Espero que este mensaje le encuentre bien. Me dirijo a usted para informarle que hemos revisado y aceptado las condiciones del servicio que su empresa nos ha ofrecido.
+Nos complace confirmar nuestra intención de proceder con la colaboración propuesta, ya que consideramos que se alinea perfectamente con nuestros objetivos empresariales.
+Agradecemos la confianza depositada en nuestra empresa y nos comprometemos a cumplir con todos los términos establecidos en el acuerdo.
+Quedamos a la espera de recibir la documentación correspondiente para proceder con la implementación del servicio.
+Si tiene alguna consulta adicional o requiere información complementaria, no dude en contactarnos.
+
+Atentamente,
+
 <remitente>
+
