@@ -1,9 +1,12 @@
+package main.java;
+
 import java.util.List;
 
 public class Controlador {
     private LecturaTemplate template;
     private LecturaCSV csv;
     private Validador validador = new Validador();
+    private Mezclador mezclador = new Mezclador();
 
     public Controlador(LecturaTemplate template, LecturaCSV csv) {
         this.template = template;
@@ -15,14 +18,6 @@ public class Controlador {
     }
 
     public List<String> getMezcla() {
-        return csv.getRegistrosList().stream()
-                  .map(registro -> {
-                      String temp = template.getTemp();
-                      for (String identificador : template.getIdentificadoresList()) {
-                          temp = temp.replace("<" + identificador + ">", registro.get(identificador));
-                      }
-                      return temp;
-                  })
-                  .toList();
+        return mezclador.mezclar(template.getTemp(), csv.getRegistrosList(), template.getIdentificadoresList());
     }
 }
