@@ -16,13 +16,13 @@ El sistema funciona en 4 pasos principales:
 
 ## Estructura del Proyecto
 
-- `Main.java`: Punto de entrada que coordina todo el proceso
-- `LecturaTemplate.java`: Lee y extrae marcadores de la plantilla
-- `LecturaCSV.java`: Procesa el archivo de datos CSV
-- `Controlador.java`: Coordina la validación y mezcla de datos
-- `Validador.java`: Valida la compatibilidad entre template y datos
+- `main.java.Main.java`: Punto de entrada que coordina todo el proceso
+- `main.java.LecturaTemplate.java`: Lee y extrae marcadores de la plantilla
+- `main.java.LecturaCSV.java`: Procesa el archivo de datos CSV
+- `main.java.Controlador.java`: Coordina la validación y mezcla de datos
+- `main.java.Validador.java`: Valida la compatibilidad entre template y datos
 - `GeneradorPDF.java`: Genera los documentos PDF finales
-- `Mezclador.java`: Combina plantillas con datos (clase auxiliar)
+- `main.java.Mezclador.java`: Combina plantillas con datos (clase auxiliar)
 
 ## Ejemplo
 
